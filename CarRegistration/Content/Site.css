@@ -1,0 +1,206 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+/*    padding-top: 50px;*/
+    padding-bottom: 20px;
+    background-color: lightgray !important;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.containerBody {
+    padding: 27% 0;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.MainContent_dateOfService {
+    width: 100%;
+    padding: 0.7%;
+    padding-left: 10%;
+    margin: auto;
+}
+
+.InvalidParameters {
+    margin: 2% 0;
+    text-align: center;
+    color: red;
+}
+
+#MainContent_LoggedIn {
+    margin: 2% 0;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.form-control:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.signIn {
+    margin-left: 30%;
+}
+
+.loginBtnDiv {
+    margin-left: 38%;
+}
+
+.loginBtn {
+    background-color: cornflowerblue;
+    border: none;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.3;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+#LogOffBtn {
+    background-color: cornflowerblue;
+    border: none;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#LogOffBtn[disabled]{
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.login {
+    width: 30%;
+    margin:auto;
+    padding-left: 8%;
+}
+
+.signInBody{
+    margin-top: 5%;
+}
+
+    .loginBtn:hover {
+        opacity: 1
+    }
+
+
+.registerBtn {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+    .registerBtn:hover {
+        /*border: 2px solid cornflowerblue;*/
+        border: 1px solid;
+        box-shadow: 5px 5px 10px cornflowerblue;
+    }
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
+
+.racingImage {
+    height: 200px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.intro {
+    height: 350px;
+}
+
+    .intro > h2 {
+        width: 20%;
+        margin: auto;
+    }
+
+    .intro > p {
+        width: 60%;
+        margin: 0 0 0 18%;
+        text-align: center;
+    }
+
+.form-control {
+    max-width: 405px !important;
+}
+
+span {
+    font-weight: bold;
+    font-size: large;
+}
+
+.payment {
+    width: 300px;
+    margin: 20px auto;
+}
+
+label {
+    font-weight: 100;
+    font-size: 0.8vw;
+}
+
+table > tbody > tr > td > label {
+    margin-left: 10px;
+}
+
+#MainContent_registerCar {
+    display: inline-block;
+    margin: auto;
+    border-radius: 4px;
+    background-color: #000000;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.submitForm {
+    width: 35%;
+    margin: auto;
+    padding-left: 2%;
+}
+
+.saveData {
+    width: 30%;
+    margin: 20px auto;
+}
+
